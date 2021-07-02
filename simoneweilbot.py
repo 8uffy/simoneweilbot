@@ -1,4 +1,5 @@
 # Add all import statements at top of file
+heroku create myapp --buildpack heroku/python
 import tweepy
 from time import sleep
 from credentials import *
